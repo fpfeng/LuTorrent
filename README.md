@@ -6,6 +6,6 @@ How to:
 
 Upload `new_av.torrent` to baiduyun, it should pass this time.
 
-`bencode.py` and `BTL.py` are copy from [bencode](https://pypi.python.org/pypi/bencode), feel free to delete these two files after install it:
+`bencode.py` and `BTL.py` are copy from [bencode](https://pypi.python.org/pypi/bencode), feel free to delete those two files after install it:
 
 `pip install bencode`
