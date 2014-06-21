@@ -69,7 +69,8 @@ def lu_torrent(torrent):
             single_file(old_info)
         decoded_data['info'] = trash_useless(
             old_info)  # last step change to new info
-        new_torrent = open("new_" + path.basename(sys.argv[1]), "w")
+        split_path = path.split(path.abspath(sys.argv[1]))
+        new_torrent = open(path.join(split_path[0], 'new_' + split_path[1]), "w")
         new_torrent.write(bencode.bencode(decoded_data))
         new_torrent.close()
         torrent.close()
