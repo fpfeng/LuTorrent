@@ -2,7 +2,7 @@
 
 ####How to:
 
-`python lutorrent.py av.torrent`
+`python lutorrent.py /path/to/av.torrent`
 
 ####Upload `new_av.torrent`(in original torrent folder) to baiduyun, it should pass this time.
 
